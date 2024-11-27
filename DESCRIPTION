@@ -1,0 +1,17 @@
+Package: RhdhvTools
+Title: Functions Frequently Used By BNS-WM
+Version: 0.0.0.9000
+Authors@R: 
+    person("Wouter", "Lenferink", email = "wouter.lenferink@rhdhv.com",
+      role = c("aut", "cre"))
+Description: 
+  A package that combines all functions frequently used by RHDHV BNS and WM employees in R operations.
+License: 
+  use_proprietary_license()
+Imports:
+  dplyr (>= 1.1.0),
+  tidyr (>= 1.3.0),
+  ggplot2 (>= 3.5.0)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
